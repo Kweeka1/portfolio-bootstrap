@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-shapes {
+  background-image: url("./img/desktop-shapes-bg.svg");
+  background-position: center;
+  background-size: cover;
+  min-height: calc(100vh - 62px);
+}
+
+.app-logo:hover {
+  color: #6070ff;
+}
+
+/* Colors */
+
+.cl-lg-dark-blue {
+  color: #091e42;
+}
+
+.cl-purple {
+  color: #6070ff;
+}
+
+.cl-md-dark-blue {
+  color: #172b4d;
+}
+
+.cl-lavender {
+  color: #ebebff;
+}
+
+.cl-slate-grey {
+  color: #505f79;
+}
+
+.cl-sm-dark-blue {
+  color: #344563;
+}
