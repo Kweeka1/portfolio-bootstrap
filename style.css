@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-header-shapes {
+  background-image: url("./img/desktop-shapes-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 62px);
+}
+
+.bg-contact-shapes {
+  background-image: url("./img/contact-form-shapes.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-header-shapes {
+    background-image: url("./img/mobile-header-shapes.svg");
+  }
+
+  .bg-contact-shapes {
+    background-image: url("./img/contact-form-shapes-mobile.svg");
+    background-position: right;
+  }
+}
+
+.app-logo:hover {
+  color: #6070ff;
+}
+
+/* Colors */
+
+.cl-lg-dark-blue {
+  color: #091e42;
+}
+
+.cl-purple {
+  color: #6070ff;
+}
+
+.cl-md-dark-blue {
+  color: #172b4d;
+}
+
+.cl-lavender {
+  color: #ebebff;
+}
+
+.cl-slate-grey {
+  color: #505f79;
+}
+
+.cl-sm-dark-blue {
+  color: #344563;
+}
+
+.bg-grey {
+  background-color: #dfe1e6;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-purple {
+  background-color: #ebebff;
+}
+
+.bg-dark-purple {
+  background-color: #6070ff;
+}
+
+.bg-light-grey {
+  background-color: #f7f7f9;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 500px;
+  min-height: 280px;
+}
+
+.badge {
+  background-color: #ebebff;
+  color: #6070ff !important;
+}
