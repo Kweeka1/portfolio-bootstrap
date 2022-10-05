@@ -46,3 +46,29 @@
 .cl-sm-dark-blue {
   color: #344563;
 }
+
+.bg-grey {
+  background-color: #dfe1e6;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-purple {
+  background-color: #ebebff;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 500px;
+  min-height: 280px;
+  
+}
+
+.badge {
+  background-color: #ebebff;
+  color: #6070ff !important; 
+
+}
+
