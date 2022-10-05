@@ -34,7 +34,7 @@
   </head>
   <body style="background-color: #dfe1e6">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <section class="container-fluid justify-content-around p-2">
+      <section class="container-fluid justify-content-lg-around justify-content-sm-between p-2">
         <a class="h3 cl-purple text-decoration-none app-logo" href="#">Logo</a>
         <button
           class="navbar-toggler"
@@ -47,24 +47,11 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse flex-grow-0"
-          id="navbarMenus"
-        >
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarMenus">
           <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center align-items-center flex-md-column flex-lg-row">
-            <li class="nav-item px-2">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Portfolio</a
-              >
-            </li>
-            <li class="nav-item px-2">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item px-2">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Contact</a
-              >
-            </li>
+            <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="#">Portfolio</a></li>
+            <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="#">About</a></li>
+            <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="#">Contact</a></li>
           </ul>
         </div>
       </section>
@@ -83,25 +70,11 @@
         </p>
         <span class="fw-normal cl-purple">LET'S CONNECT</span>
         <ul class="list-unstyled d-flex gap-3 mb-3 mt-3 display-6">
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter cl-slate-grey"></i></a>
-          </li>
-          <li>
-            <a href="#"
-              ><i class="fa-brands fa-linkedin-in cl-slate-grey"></i
-            ></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-github cl-slate-grey"></i></a>
-          </li>
-          <li>
-            <a href="#"
-              ><i class="fa-brands fa-facebook-f cl-slate-grey"></i
-            ></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram cl-slate-grey"></i></a>
-          </li>
+          <li><a href="#"><i class="fa-brands fa-twitter cl-slate-grey"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in cl-slate-grey"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github cl-slate-grey"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook-f cl-slate-grey"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram cl-slate-grey"></i></a></li>
         </ul>
       </article>
     </section>
@@ -241,16 +214,16 @@
             <span>Languages</span>
             <i class="fa-solid fa-chevron-down"></i>
           </div>
-          <ul class="d-flex gap-3 list-unstyled">
-            <li class="d-flex flex-column bg-light-grey p-3 w-25 gap-4" style="min-width: max-content">
+          <ul class="d-flex gap-3 list-unstyled flex-lg-row flex-column">
+            <li class="d-flex flex-lg-column flex-lg-row flex-sm-row bg-light-grey p-3 gap-4 col-lg-3 col-sm-12">
               <img src="./img/javascript.svg" alt="javascript icon" width="60" />
               <span>Javascript</span>
             </li>
-            <li class="d-flex flex-column bg-light-grey p-3 w-25 gap-4" style="min-width: max-content">
+            <li class="d-flex flex-lg-column flex-md-row flex-sm-row bg-light-grey p-3 gap-4 col-lg-3 col-sm-12">
               <img src="./img/html.svg" alt="HTML icon" width="60" />
               <span>HTML</span>
             </li>
-            <li class="d-flex flex-column bg-light-grey p-3 w-25 gap-4" style="min-width: max-content">
+            <li class="d-flex flex-lg-column flex-md-row flex-sm-row bg-light-grey p-3 gap-4 col-lg-3 col-sm-12">
               <img src="./img/css.svg" alt="CSS icon" width="60" />
               <span>CSS</span>
             </li>
@@ -281,19 +254,10 @@
           </p>
           <form action="https://formspree.io/f/xeqdgnwv" method="post">
             <ul class="list-unstyled d-flex flex-column gap-3">
-              <li>
-                <input class="form-control" type="text" name="full name" id="name" placeholder="Full name" required maxlength="30" />
-              </li>
-              <li>
-                <input class="form-control" type="email" name="email" id="email" placeholder="Email address" required />
-              </li>
-              <li>
-              <textarea class="form-control" name="textarea" id="textarea" cols="30" rows="10" maxlength="500" required
-                        placeholder="Enter text here"></textarea>
-              </li>
-              <li class="mx-0 mx-sm-auto">
-                <button class="btn btn-primary p-2 my-2 " type="submit">Get in touch</button>
-              </li>
+              <li><input class="form-control" type="text" name="full name" id="name" placeholder="Full name" required maxlength="30" /></li>
+              <li><input class="form-control" type="email" name="email" id="email" placeholder="Email address" required /></li>
+              <li><textarea class="form-control" name="textarea" id="textarea" cols="30" rows="10" maxlength="500" required placeholder="Enter text here"></textarea></li>
+              <li class="mx-0 mx-sm-auto"><button class="btn btn-primary p-2 my-2 " type="submit">Get in touch</button></li>
             </ul>
           </form>
         </article>
